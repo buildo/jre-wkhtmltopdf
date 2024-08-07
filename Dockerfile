@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17.0.9_9-jre-focal@sha256:39a4816b87b50fb1612d67bd13ec77e31e03c3593155172793daae0266cafc64
+FROM eclipse-temurin:17.0.12_7-jre-focal@sha256:e76ab78a6ac94695fe4f3a431be34499cb3e12dcf544947f49a4a292e6508af6
 
 # Download and install wkhtmltopdf
 RUN apt-get update \
